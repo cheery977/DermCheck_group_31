@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Database
+backend/dermcheck.db
+
+# Uploaded images (too large for git)
+backend/uploads/
+
+# Trained model weights (too large for git — train locally)
+backend/ml/checkpoints/
+
+# Training data
+backend/data/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
